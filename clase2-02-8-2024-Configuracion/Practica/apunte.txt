@@ -1,0 +1,20 @@
+ 1) Practicamos Clonar un repositorio desde otro Usuario github
+
+ 2) Seguimos practicando como crear un repositorio en github desde VSC
+
+ 3) Repasamos conceptos:
+    Git: es una herramienta de seguimiento local, como por ejemplo y en comparacion 
+         crear un pdf en mi PC donde todos los cambios que realizo quedan aplicado 
+         es mi local osea mi PC
+    
+    GitHub: es una herramienta remota donde yo subo los cambios que voy aplicando desde mi 
+            PC(local), siguiendo el ejemplo del pdf, en este caso el remoto seria Drive por ejemplo
+            que es cuando ese pdf lo subo a drive.
+
+4) Vimos como eliminar un repositorio en GitHub y como modificarlo de publico a privado
+
+5) Vimos como abrir la consola que viene integrada en VSC
+
+6) Reforzamos sobre extensiones, que no es necesario descargar tantas para no perjudicar a futuro el 
+    rendimiento del funcionamiento de VSC ya que ocupan espacio y hacen pesado el funcionamiento del mismo.
+
