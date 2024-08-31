@@ -1,0 +1,55 @@
+/*Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+    
+
+/*Selector de tipo*/
+h1 {
+    color: green;
+    background-color: rgb(104, 104, 241);
+}
+
+p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+div{
+    color: violet;
+}
+
+/*Selector de clase*/
+
+.menu{
+    background-color: orange;
+}
+
+/*Selector Id*/
+#link1{
+    color:white;
+}
+
+#link2{
+    color:brown;
+}
+
+/*----- Cascada y especificidad------------*/
+
+#parrafo{
+    color: red;
+}
+
+.texto{
+    color: green;
+}
+
+p{
+    color: violet ;
+}

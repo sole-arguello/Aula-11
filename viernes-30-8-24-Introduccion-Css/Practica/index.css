@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Cascada */
+
+/*sintaxis
+
+selector {
+
+    propiedades: valores;
+}
+*/
+
+img {
+    width: 20%;
+    background: red;
+}
+
+p {
+    color: red;
+    background-color: blue;
+    width: 30%;
+}
+
+/* p {
+    background: green;
+} */
+
+.titulo1 {
+    background-color: brown;
+}
+
+.titulo-banner {
+    background-color: blueviolet;
+}
+
+#menu {
+    background-color: cadetblue;
+}
+
+.footer{
+    margin: 20px 5px 3px 100px;
+    padding: 10px;
+}

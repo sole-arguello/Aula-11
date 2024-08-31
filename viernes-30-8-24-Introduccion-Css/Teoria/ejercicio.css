@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(55, 55, 163);
+    text-align: center;
+}
+
+.destacado {
+    color: red;
+    font-size: 28px;
+}
+
+#informacion{
+    color: green;
+    text-decoration: underline;
+}
+
+.parrafo{
+    margin: 20px;
+}
