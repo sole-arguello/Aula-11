@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: radial-gradient(circle at 50% -20.71%,
+     #f5dbbc 0, #f4d3b4 12.5%, #f4cbac 25%, #f3c3a5 37.5%, 
+    #f2b99d 50%, #f1af97 62.5%, 
+    #f0a692 75%, #ef9d8f 87.5%, #ed958e 100%);
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+}
+span{
+    font-size: 20px;
+}
+.links{
+    color: black;
+    text-decoration: none;
+}
+.hero{
+    background-image: url("./hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 80vh;
+}
+.sub-titulo-hero{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 60px;
+    text-shadow: white 1px 0 10px;
+}
+.domicilio{
+   font-size: 50px;
+   margin: 50px;
+   text-shadow: white 1px 0 10px; 
+}
+.btn-contactanos-hero{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 5rem;
+    background-color: rgba(0,0,0,0.5);
+}
