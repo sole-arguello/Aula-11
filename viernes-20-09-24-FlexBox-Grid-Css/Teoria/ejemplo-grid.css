@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.padre-contenedor{
+    background-color: grey;
+
+    display: grid;
+
+    /*filas*/
+    grid-template-rows: 300px 300px 300px;
+    /*columnas*/
+    grid-template-columns: 300px 300px 300px;
+
+    /*centrarlas*/
+    /* justify-content: center;
+    align-items: center; */
+
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis"
+    "siete ocho nueve"
+    ;
+    
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+}
+
+.uno{
+    background-color: red;
+
+   grid-area: tres;
+}
+
+.dos{
+    background-color: blue;
+
+    grid-area: nueve;
+}
+
+.tres{
+    background-color: green;
+}
+
+.cuatro{
+    background-color: yellow;
+}
+
+.cinco{
+    background-color: purple;
+}
+
+.seis{
+    background-color: orange;
+}
+
+.siete{
+    background-color: pink;
+}
+
+.ocho{
+    background-color: brown;
+}
+
+.nueve{
+    background-color: blueviolet; ;
+}
+
+/*segunda secccion del ejemplo*/
+
+.main{
+
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 500px 300px;
+
+    grid-template-areas: 
+    "principal secundaria"
+    "terciaria terciaria"
+    ;
+}
+
+.principal{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+    grid-area: principal;
+}
+
+.secundaria{ 
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+    grid-area: secundaria;
+}
+
+.terciaria{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    grid-area: terciaria;
+}

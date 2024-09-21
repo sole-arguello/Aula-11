@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenedor{
+    background-color: gray;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;/*centrado eje x*/
+    align-items: center;/*centrado eje y*/
+    flex-wrap: wrap;
+    gap: 20px 0;
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*por defecto del navegador son bloque por lo tanto 
+en columnas column
+y al dar diplay flex cambiamos su comportamiento 
+a una etiqueta en linea por lo tanto en filas osea row*/
+.uno{
+    background-color: red;
+}
+
+.dos{
+    background-color: blue;
+}
+
+.tres{
+    background-color: green;
+}
+
+.cuatro{
+    background-color: yellow;
+}
+
+.cinco{
+    background-color: purple;
+}
+
+.seis{
+    background-color: orange;
+}
